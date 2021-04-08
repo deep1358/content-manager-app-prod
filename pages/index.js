@@ -7,6 +7,9 @@ import ResourceHighlight from "../components/ResourceHighlight";
 export default function Home({ data }) {
   return (
     <>
+    <Head>
+      <title>Content Manager</title>
+    </Head>
       <ResourceHighlight resources={data} />
       <Newsletter />
       <ResourceList resources={data} />
